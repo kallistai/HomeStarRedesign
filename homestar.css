@@ -1,19 +1,37 @@
-
+/* Banner on the top of the page */
 #banner {
     text-align: center;
     width: 70%;
     background-color: #1FABEB;
     margin: auto;
-    margin-bottom: 6em;
+    margin-top: 2em;
+    margin-bottom: 3em;
     padding: 2em;
-    
     
     
 }
 
+/* Wrapper for boxes so they go 3 across */
+#wrapper {
+    width:100%;
+    text-align:center;
+    display: inline-block;
+}
 
+/* Menu boxes for selection */
+.box {
+  background: gray;
+  display:inline-block;
+  text-align: center;
+  width: 6em;
+  height: 6em;
+  padding: 2em;
+  margin: 2em;
+  line-height: 4em;
+}
+
+/* Styling for email page selections */
 #emailSection {
-
    text-align: center;
    width: 70%;
    background-color: #575757; 
@@ -22,6 +40,7 @@
    margin-bottom: 4em;
 }
 
+/* Page container */
 .container {	
 	width: 80%;
 	margin: 0 auto; 
