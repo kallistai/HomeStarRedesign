@@ -1,0 +1,144 @@
+/*make the h1 font size scale responsively*/
+h1 {
+  font-size: 2vh;
+}
+
+/* Page container */
+#container {  
+  width: 80%;
+  margin: 0 auto; 
+}
+
+/* Banner on the top of the page */
+#banner {
+    text-align: center;
+    width: 80%;
+    height: 7vh;
+    background-color: #1FABEB;
+    margin: auto;
+    margin-bottom: 3em;
+    padding: 3.5em 1em;
+    
+    
+}
+
+/*container for body elements*/
+#bodywrap {
+  width: 80%;
+  margin: auto;
+}
+
+/*Wrapper for character cards */
+#leftwrap {
+  width: 65%;
+  height: 65vh;
+  color: #333;
+  float: left;
+
+}
+
+/* columns for spacing divs */
+
+#leftcolumn {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+#rightcolumn {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+/*charactercard*/
+
+.charactercard {
+  background: gray;
+  display:inline-block;
+  text-align: center;
+  font-size;
+  width: 11vw;
+  height: 11vw;
+  margin: 1em 2em;
+}
+
+/*Wrapper for slider */
+#rightwrap {
+  width: 30%;
+  height: 70vh;
+  color: #333;
+  border-style: ridge;
+  float: right;
+}
+
+/*list containing charcters*/
+
+#charactersidenav {
+  list-style-type: none;
+}
+
+#charactersidenav h1{
+  font-size: 3vh;
+}
+
+/* Wrapper for boxes so they go 3 across */
+.wrapper {
+    width:100%;
+    text-align:center;
+    display: inline-block;
+}
+
+/* Menu boxes for selection */
+.box {
+  background: gray;
+  display:inline-block;
+  text-align: center;
+  width: 6em;
+  height: 6em;
+  padding: 2em;
+  margin: 1em 2em;
+  line-height: 4em;
+}
+
+/* Styling for email page selections */
+#emailSection {
+   text-align: center;
+   width: 70%;
+   background-color: #575757; 
+   padding: 2em;
+   margin: auto;
+   margin-bottom: 4em;
+}
+
+.downloadscontent {
+  width: 100%;
+  text-align: center;
+}
+
+.downloadsheader {
+  width: 100%;
+  height: 2em;
+  background-color: #888;
+  text-align: center;
+}
+
+.downloads {
+  width: 100%;
+}
+
+.downloads td {
+  width: 30%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#footer {
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    margin-top: 3em;
+    background-color: #575757;
+    clear: both;
+}
